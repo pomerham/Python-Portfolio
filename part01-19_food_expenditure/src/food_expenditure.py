@@ -1,0 +1,10 @@
+# Write your solution here
+cafe = float(input("cafe visits?"))
+p_cafe = float(input("lunch cost?"))
+grocery = float(input("Weekly grocery cost?"))
+tot_cafe =(cafe * p_cafe)
+t_week = (grocery + tot_cafe)
+d_cost = (t_week/7)
+print("Average food expenditure:")
+print(f"Daily: {d_cost} euros")
+print(f"Weekly: {t_week} euros")
